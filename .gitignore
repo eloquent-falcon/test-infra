@@ -12,3 +12,5 @@ token
 .idea/
 *.iml
 .vscode/*
+
+/bin
