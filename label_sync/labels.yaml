@@ -33,7 +33,6 @@ labels:
     description: Denotes an issue or PR intended to be handled by the steering committee.
     name: committee/steering
     target: both
-    prowPlugin: label
     addedBy: anyone
   - color: 006b75
     description: Denotes an issue that needs help from a contributor. Must meet "help wanted" guidelines.
@@ -41,7 +40,6 @@ labels:
     previously:
       - name: help-wanted
     target: issues
-    prowPlugin: help
     addedBy: anyone
   - color: e11d21
     description: Categorizes issue or PR as related to a bug.
@@ -49,7 +47,6 @@ labels:
     previously:
       - name: bug
     target: both
-    prowPlugin: label
     addedBy: anyone
   - color: c7def8
     description: Categorizes issue or PR as related to documentation.
@@ -57,7 +54,6 @@ labels:
     previously:
       - name: doc
     target: both
-    prowPlugin: label
     addedBy: anyone
   - color: c7def8
     description: Categorizes issue or PR as related to a new feature.
@@ -65,7 +61,6 @@ labels:
     previously:
       - name: enhancement
     target: both
-    prowPlugin: label
     addedBy: anyone
   - color: fef2c0
     description: Used during release burndown. Denotes an issue or PR is approved to be part of the release # A bot will warn then kick issues out of the milestone that lack this label.
@@ -73,17 +68,19 @@ labels:
     previously:
       - name: approved-for-milestone
     target: both
-    prowPlugin: milestonestatus
     addedBy: anyone
   - color: fef2c0
     description: Used during release burndown. Denotes that an issue is actively being worked.
     name: status/in-progress
     target: both
-    prowPlugin: milestonestatus
     addedBy: anyone
   - color: fef2c0
     description: Used during release burndown. Denotes that a fix for an issue is actively being reviewed.
     name: status/in-review
     target: both
-    prowPlugin: milestonestatus
+    addedBy: anyone
+  - color: 27ae5f
+    description: Denotes an issue or PR intended to be a part of company processes
+    name: company/processes
+    target: both
     addedBy: anyone
