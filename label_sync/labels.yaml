@@ -81,6 +81,13 @@ labels:
     addedBy: anyone
   - color: 27ae5f
     description: Denotes an issue or PR intended to be a part of company processes
-    name: company/processes
+    name: company/process
+    previously:
+      - name: company/processes
+    target: both
+    addedBy: anyone
+  - color: a1f28e
+    description: Denotes an issue or PR intended to be a decision or decison memo
+    name: decision
     target: both
     addedBy: anyone
