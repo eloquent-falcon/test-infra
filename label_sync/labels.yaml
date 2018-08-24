@@ -29,6 +29,7 @@ labels:
       - name: wontfix
     target: both
     addedBy: humans
+    deleteAfter: 2017-01-01T13:00:00Z
   - color: c0ff4a
     description: Denotes an issue or PR intended to be handled by the steering committee.
     name: committee/steering
@@ -70,8 +71,18 @@ labels:
     target: both
     addedBy: anyone
   - color: fef2c0
-    description: Used during release burndown. Denotes that an issue is actively being worked.
+    description: Denotes that an issue is suspended
+    name: status/on-hold
+    target: both
+    addedBy: anyone
+  - color: fef2c0
+    description: Denotes that an issue is actively being worked.
     name: status/in-progress
+    target: both
+    addedBy: anyone
+  - color: fef2c0
+    description: Denotes that an issue is incomplete and additional information should be provided
+    name: status/draft
     target: both
     addedBy: anyone
   - color: fef2c0
