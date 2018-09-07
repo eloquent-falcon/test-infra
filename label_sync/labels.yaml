@@ -50,6 +50,11 @@ labels:
     target: both
     addedBy: anyone
   - color: c7def8
+    description: Categorizes issue or PR as related to design.
+    name: kind/design
+    target: both
+    addedBy: anyone
+  - color: c7def8
     description: Categorizes issue or PR as related to documentation.
     name: kind/documentation
     previously:
@@ -95,6 +100,11 @@ labels:
     name: company/process
     previously:
       - name: company/processes
+    target: both
+    addedBy: anyone
+  - color: d0adff
+    description: Issues or PRs related to calendar component
+    name: component/calendar
     target: both
     addedBy: anyone
   - color: a1f28e
